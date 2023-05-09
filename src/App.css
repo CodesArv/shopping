@@ -1,0 +1,929 @@
+.nav {
+
+  background-color: black;
+  /* background: linear-gradient(179deg, rgba(0,0,0,1) 11%, rgba(232,21,9,1) 100%) !important; */
+}
+
+
+.carousel-indicators [data-bs-target] {
+  width: 100px !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none !important;
+}
+
+.color {
+  color: white !important;
+  font-size: 26px !important;
+  font-weight: bolder !important;
+  text-transform: capitalize;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+  transition: 0.8s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: aliceblue;
+  opacity: 0.6;
+  color: black !important;
+
+}
+
+.navbar-expand-lg .navbar-collapse {
+  padding-right: 140px;
+
+}
+
+.navbar-brand {
+  padding-left: 82px;
+  color: rgb(244, 240, 240) !important;
+  font-size: 26px !important;
+  font-weight: bolder !important;
+
+}
+
+.uni {
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  text-transform: capitalize !important;
+}
+
+.imgh {
+  height: 600px !important;
+}
+
+.write1 {
+  position: relative;
+}
+
+.headingwatch {
+  position: absolute;
+  font-size: 30px !important;
+  color: rgba(255, 255, 255, 0.979);
+  top: 270px;
+  left: 30px;
+  text-transform: capitalize;
+  font-weight: bolder;
+
+}
+
+.paragraph4 {
+  font-size: 30px !important;
+  color: rgba(255, 255, 255, 0.979);
+  font-size: 50px !important;
+  font-weight: bolder;
+}
+
+.midimgheight {
+  height: 700px !important;
+  width: 100%;
+  padding: 10px;
+}
+
+.midimgheight2 {
+  height: 600px !important;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.imageBox {
+  position: relative;
+  cursor: pointer;
+  transition: 0.7s;
+
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+
+}
+
+.btn-watch {
+  /* position: absolute; */
+  /* left: 30px; */
+  padding: 20px 50px;
+  /* bottom: 50px; */
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: rgb(7, 7, 7);
+  transition: 0.9s;
+  font-size: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-top: 5% !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.btn-watch:hover {
+  background-color: black;
+  color: white;
+}
+
+.limted {
+  font-size: 70px;
+  margin-left: 50px;
+}
+
+.watch {
+  color: rgb(83, 78, 78) !important;
+
+}
+
+.btn-watch2 {
+  padding: 20px 50px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: rgb(7, 7, 7);
+  transition: 0.9s;
+  font-size: 20px;
+  margin-left: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 10% !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.btn-watch2:hover {
+  background-color: black;
+  color: white;
+}
+
+.pay {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.our {
+  font-size: 40px;
+}
+
+.jackimg {
+  height: 550px !important;
+  width: 100%;
+  transition: 0.9s;
+
+}
+
+.jackimg:hover {
+  opacity: 0.9;
+}
+
+.l-jack {
+  font-size: 50px;
+  color: gray !important;
+}
+
+.LATHER {
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+.btn-watch3 {
+  padding: 20px 50px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-left: 50px;
+  margin-top: 20%;
+  color: rgb(7, 7, 7);
+  transition: 0.9s;
+  font-size: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 10% !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.btn-watch3:hover {
+  background-color: black;
+  color: white;
+}
+
+.bro {
+  font-size: 20px !important;
+  margin-left: 50px;
+}
+
+.btn-watch4 {
+  padding: 20px 50px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 20%;
+  color: rgb(7, 7, 7);
+  transition: 0.9s;
+  font-size: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 10% !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hod {
+  padding: 20px;
+
+}
+
+.uv {
+  font-size: 70px !important;
+}
+
+.hood-lor {
+  font-size: 20px !important;
+}
+
+.btn-watch4:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.SUMMER1 {
+  height: 390px !important;
+  transition: transform .9s;
+}
+
+.SUMMER1:hover {
+  transform: scale(1.2);
+}
+
+.hov {
+  overflow: hidden;
+}
+
+.area {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: rgb(44, 42, 42);
+}
+
+.sport11 {
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-left: 60px;
+  margin-top: 20px;
+
+}
+
+.btn-4 {
+  padding: 20px 50px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: rgb(7, 7, 7);
+  transition: 0.9s;
+  font-size: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: 50px;
+
+}
+
+.btn-4:hover {
+  background-color: black;
+  color: white;
+}
+
+.rowpd {
+  padding: 20px 40px;
+}
+
+
+.rowcol {
+  background-color: black;
+}
+
+.girl-boy {
+  height: 650px !important;
+  width: 100%;
+
+
+}
+
+.girl-boy:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn1 {
+  padding: 15px 80px;
+  background: none;
+  font-size: 30px;
+  border: 3px solid white;
+  color: white;
+  text-transform: capitalize;
+  transition: 0.9s;
+  font-weight: bold;
+
+}
+
+.btn1:hover {
+  background-color: aliceblue;
+  color: black;
+
+}
+
+.fff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.coll {
+  color: white;
+  padding: 20px;
+}
+
+.proheight {
+  height: 100px !important;
+}
+
+.productheight {
+  height: 400px !important;
+  width: 400px !important;
+}
+
+.bodyhead {
+  font-size: 40px;
+  padding: 20px;
+  font-weight: bolder;
+  background-color: rgb(0, 0, 0);
+  color: rgb(230, 225, 225);
+  animation: animate 1.9s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.price {
+  color: rgb(29, 28, 28);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 15px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.shoesbanimg {
+  height: 500px !important;
+  width: 800px !important;
+}
+
+.style-shoes {
+  margin-top: 10%;
+  font-size: 15px;
+
+}
+
+.rangimg {
+  height: 500px !important;
+  width: 1000px !important;
+  transition: 0.9s;
+}
+
+
+.rangimg:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bot {
+  position: relative;
+  text-align: center;
+  color: rgb(124, 122, 122);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 40px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 40px;
+  color: #686666;
+  font-weight: bolder;
+}
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.bottom-leftUNI {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 40px;
+  color: #a09797;
+  font-weight: bolder;
+}
+
+.img1 {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.border-col {
+  padding: 2px 100px !important;
+}
+
+.cartbtn {
+  border: none;
+  outline: 0;
+  padding: 15px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.new-coll {
+  height: 300px !important;
+
+}
+
+.all-cat {
+  font-size: 60px;
+  animation: animate 1.9s linear infinite;
+}
+
+.card-hover:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-hover {
+  transition: 0.9s;
+}
+
+.cube-row {
+  background-image: url(asset/blackbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  margin-bottom: 1px;
+}
+
+.email {
+  margin-top: 1%;
+  border-bottom: 3px white solid;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 50%;
+  background: none;
+  padding: 20px;
+  transition: 0.9s;
+}
+
+.email:hover {
+  background-color: #686666;
+  color: white;
+  opacity: 0.5;
+
+}
+
+::placeholder {
+  color: white;
+  font-size: 26px;
+}
+
+
+.brand-border {
+  height: 200px !important;
+  border: 2px solid;
+}
+
+.footerbg {
+  background-color: #000;
+}
+
+.card1 {
+  height: 200px;
+  width: 400px;
+}
+
+.imgbrand {
+  height: 200px !important;
+  width: 300px !important;
+}
+
+.marginrun {
+  margin-top: 30%;
+  font-weight: bolder;
+}
+
+.classfooter li a {
+
+  text-decoration: none;
+  color: white;
+}
+
+.pd-left {
+  margin-left: 40px;
+  margin-top: 5%;
+}
+
+
+.pd-left2 {
+
+  margin-top: 19%;
+}
+
+.address {
+  text-decoration: none;
+  color: white;
+}
+
+.gril-row {
+  background-image: url(asset/rgbimg.webp) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  background-attachment: fixed;
+}
+
+.rotate {
+  margin-top: 80%;
+  row-gap: 3deg;
+}
+
+.bglight {
+  margin-top: 100px !important;
+  font-size: 30px;
+  background-color: #760e0e;
+  opacity: 0.5;
+
+
+}
+
+
+/* mdeia query start for responsivenes */
+
+@media only screen and (max-width: 1024px) {
+
+
+  .btn-watch {
+
+    padding: 10px 30px;
+
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(7, 7, 7);
+    transition: 0.9s;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 5% !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+
+  .btn-watch2 {
+    padding: 10px 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(7, 7, 7);
+    transition: 0.9s;
+    font-size: 15px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10% !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+
+  .limted {
+    font-size: 30px;
+  }
+
+
+  .btn-watch3 {
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+
+  .LATHER {
+    font-size: 23px;
+  }
+
+  .uv {
+    font-size: 50px !important;
+  }
+
+  .btn-watch4 {
+    padding: 10px 30px;
+  }
+
+  .btn-4 {
+    padding: 10px 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(7, 7, 7);
+    transition: 0.9s;
+    font-size: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 30px;
+
+  }
+
+  .sport11 {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+
+  }
+
+  .area {
+    font-size: 30px;
+  }
+
+
+  .btn1 {
+    padding: 10px 40px;
+    background: none;
+    font-size: 30px;
+    border: 3px solid white;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.9s;
+    font-weight: bold;
+
+  }
+
+  .style-shoes {
+    margin-top: 10%;
+    font-size: 13px;
+
+  }
+
+  .midimgheight2 {
+    height: 500px !important;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .midimgheight {
+    height: 500px !important;
+    width: 600px;
+    padding: 10px;
+  }
+
+}
+
+
+/* media Css */
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .btn1 {
+    padding: 15px 30px;
+    background: none;
+    font-size: 20px;
+    border: 3px solid white;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.9s;
+    font-weight: bold;
+  
+  }
+
+  .gril-row {
+    background-image: url(asset/rgbimg.webp) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+
+  .headingwatch {
+    position: absolute;
+    font-size: 30px !important;
+    color: rgba(255, 255, 255, 0.979);
+    top: 200px;
+    left: 25px;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+
+  .paragraph4 {
+    color: rgba(255, 255, 255, 0.979);
+    font-size: 20px !important;
+    font-weight: bolder;
+  }
+
+  .imgh {
+    height: 400px !important;
+  }
+
+  .girl-boy {
+    height: 400px !important;
+    width: 100%;
+
+  }
+
+  .our {
+    font-size: 30px;
+  }
+
+  .jackimg {
+    height: 400px !important;
+  }
+
+  .l-jack {
+    font-size: 20px;
+    color: gray !important;
+  }
+
+  .LATHER {
+    font-size: 35px;
+    margin-left: 30px;
+  }
+
+  .bro {
+    font-size: 20px !important;
+    margin-left: 30px;
+
+  }
+
+  .btn-watch3 {
+    padding: 10px 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 30px;
+    color: rgb(7, 7, 7);
+    transition: 0.9s;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 5% !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .uv {
+    font-size: 40px !important;
+  }
+
+  .hood-lor {
+    font-size: 15px !important;
+  }
+
+  .btn-watch4 {
+    padding: 10px 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(7, 7, 7);
+    transition: 0.9s;
+    margin-right: 100px;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10% !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .area {
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    padding: 10px;
+  }
+
+  .SUMMER1 {
+    height: 300px !important;
+    padding: 30px;
+
+  }
+
+  .btn-4 {
+    margin-left: 20ox;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(7, 7, 7);
+    transition: 0.9s;
+    font-size: 13px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .sport11 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-left: 60px;
+    margin-top: 5px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.icon-rel{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top: 0px;
+  color: black;
+padding: 10px 13px;
+border-radius: 80%;
+
+}
+
+.icon:hover{
+color: white;
+ background-color: rgb(7, 7, 7);
+
+}
+
+.rela{
+  position: relative;
+}
+
+.card1{
+  position: absolute;
+background-color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  cursor: pointer;
+  height: 300px;
+  right: -22px;
+  color: white;
+  padding: 30px;
+}
